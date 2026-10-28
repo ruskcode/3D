@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "启动 Python 后端",
+      "type": "shell",
+      "command": "${workspaceFolder}/demo2/backend/.venv/bin/python",
+      "args": [
+        "-m",
+        "uvicorn",
+        "app.main:app",
+        "--reload",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8001"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/demo2/backend"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
