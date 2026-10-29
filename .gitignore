@@ -9,6 +9,39 @@ dist-ssr/
 .venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+
+# Java / Maven 构建结果
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+HELP.md
+
+# Java IDE / 工具缓存
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.idea/
+*.iws
+*.iml
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+build/
 
 # 环境变量
 .env
@@ -16,7 +49,7 @@ __pycache__/
 !.env.example
 
 # 日志
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -24,17 +57,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# 编辑器配置
+# VS Code
 .vscode/*
 !.vscode/extensions.json
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+!.vscode/tasks.json
 
 # macOS
 .DS_Store
-
-!.vscode/tasks.json
