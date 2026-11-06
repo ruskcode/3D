@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f1f5f9;
+  color: #172033;
+  font-family: system-ui, sans-serif;
+}
+
+p {
+  line-height: 1.7;
+}
